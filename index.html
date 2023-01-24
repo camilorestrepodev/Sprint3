@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2fc900dc05.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <title>Pagina principal - casaRoyal</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="top-menu">
+        <div class="top-texto">
+            <h2 class="top-address">1441 Market St, San Francisco</h2>
+            <h2 class="top-phone">(123) 456-7890</h2>
+            <h2 class="top-hours">Mon - Sun: 8:00am - 6:00pm</h2>
+        </div>
+        <div class="top-boton">
+            <a href="#articulos"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="http://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="http://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="http://www.pinterest.com"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+        <div class="top-login">
+            <a href="" class="login-text">LOGIN/REGISTER</a>
+        </div>
+    </div>
+
+    <div class="main-menu">
+        <div class="main-logo">
+            <img src="./img/logo-casa.png" alt="" class="logo-menu">
+            <h3 class="text-menu">casa</h3>
+            <h3 class="text-menudos">Royal</h3>
+        </div>
+        <nav class="nav-mainmenu">
+            <a class="nav-menu" href="">HOMEPAGE</a>
+            <a class="nav-menu" href="">PROPERTIES</a>
+            <a class="nav-menu" href="">AGENCIES</a>
+            <a class="nav-menu" href="">PAGES</a>
+            <a class="nav-menu" href="">ABOUT</a>
+            <a class="nav-menu" href="./pages/contact.html">CONTACT</a>
+            <a class="nav-compare" href="">COMPARE</a>
+            <a class="nav-favorito" href="./pages/favoritos.html">Favoritos</a>
+        </nav>
+        <div class="btn-mainfavorito">
+            <a class="enlace-mainfavorito" href="./pages/newInmueble.html">
+                <i class="fa-solid fa-plus"></i>
+            </a>
+        </div>
+        <div class="boton-menu">
+            <a class="btnsubmit-menu" href="">SUBMIT LISTING</a>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header-text">
+            <h4 class="text-principalheader">Let Us Guide You Home</h4>
+            <h4 class="text-second">Find the house of your dreams</h4>
+        </div>
+        <form class="header-input">
+            <div class="inputType">
+                <label for="tipo">Type</label>
+                <select id="tipo" type="text">
+                    <option id='allType' value="tipo">Select Type</option>
+                    <option id='house' value="house">Casa</option>
+                    <option id='apartament' value="tipo">Apartamento</option>
+                </select>
+            </div>
+            <div class="inputStatus">
+                <label for="ubicacion">Status</label>
+                <select name="status" id="ubicacion">
+                    <option id='allStatus' value="status">Select Status</option>
+                    <option id='florida' value="florida">Florida</option>
+                    <option id='newjersey' value="newjersey">New Jersey</option>
+                    <option id='california' value="california">California</option>
+                </select>
+            </div>
+            <div class="inputSearch">
+                <input id="" type="text" placeholder="Searh for properties, suburbs or keywords…">
+            </div>
+            <div class="buttonFind">
+                <button class="btn-find" type="submit">FIND PROPERTIES</button>
+            </div>
+        </form>
+    </header>
+
+    <section class="section">
+        <div class="section-texto">
+            <h5 class="section-texto-secundario">CASAROYAL REAL ESTATE AGENCY</h5>
+            <div class="section-texto-dos">
+                <h5 class="section-texto-principal">Featured</h5>
+                <h5 class="section-texto-principaldos">Properties</h5>
+            </div>
+
+        </div>
+        <div class="section-target">
+
+        </div>
+    </section>
+    <main class="main">
+        <section class="main-filtros">
+        <section id="contenedorInmuebles">
+            <article class="main-card">
+                <figure class="figure-image">
+                    <img src="./img/casa1.png" alt="" class="img-card">
+                    <a class="main-favorite" href=""><i class="fa-solid fa-star"></i></a>
+                </figure>
+                <h2 class="main-precio">$320,000.00</h2>
+                <h2 class="main-ubicacion">New Jersey</h2>
+                <h2 class="main-nombre">272 S Rexford Dr, Beverly Hills, CA90212, USA</h2>
+                <h2 class="main-propietario">Hellen Mattis</h2>
+            </article>
+            
+        </section>
+        </section>
+    </main>
+
+    <script src="./scripts/script.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

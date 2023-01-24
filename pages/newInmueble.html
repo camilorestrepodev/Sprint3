@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2fc900dc05.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <title>Favorites - Principal</title>
+    <link rel="stylesheet" href="../styles/newInmueble.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Agregar nuevo</h1>
+        <a class="header-enlace" href="../index.html">Regresar a la pagina principal</a>
+    </header>
+
+    <form class='form'>
+        <label for="name">Nombre del inmueble</label>
+        <input id='name' type="text" placeholder="Escribe un nombre...">
+        <label for="status">Ubicación del inmueble</label>
+        <select name="" id="status">
+            <option value="">Seleccion ubicación</option>
+            <option id="florida" value="Florida">Florida</option>
+            <option id="newjersey" value="New jersey">New Jersey</option>
+            <option id="california" value="California">California</option>
+        </select>
+
+        <label for="precio">Agregar precio</label>
+        <input id='precio' type="number" placeholder="Digite el precio...">
+
+        <label for="tipo">Tipo de inmueble</label>
+        <select name="" id="tipo">
+            <option id="option" value="">Seleccion tipo de inmueble</option>
+            <option id="house" value="casa">Casa</option>
+            <option id="apartament" value="apartamento">Apartamento</option>
+        </select>
+
+        <label for="propietario">Nombre del propietario</label>
+        <input id='propietario' type="text" placeholder="Escriba su nombre completo...">
+
+        <label for="imagen">Agregar una imagen</label>
+        <input id='imagen' type="url" placeholder="Introduzca una URL...">
+
+        <label for="descripcion">Agregar descripción del inmueble</label>
+        <input id='descripcion' type="text" placeholder="Describa...">
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+        <script src="../scripts/newInmueble.js" type="module"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

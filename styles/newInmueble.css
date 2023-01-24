@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.header{
+    padding: 15px;
+    display: grid;
+    align-items: center;
+    height: 80px;
+    background-color: #2A41E8;
+}
+
+
+h1{
+    font-family: 'Rubik';
+    color: white;
+    font-weight: 300;
+}
+
+.header a{
+    font-family: 'Rubik';
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 220px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.header a:hover{
+    color: #2A41E8;
+}
+
+.header-enlace{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.form{
+    margin-top: 20px;
+    padding-left: 10px;
+    display: grid;
+    gap: 5px;
+}
+
+.form label{
+    padding: 5px;
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+
+.form input{
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 10px;
+    height: 20px;
+    width: 500px;
+}
+
+.form button{
+    font-family: 'Rubik';
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 5px;
+    width: 200px;
+    color: white;
+    font-weight: 200;
+    background-color:#2A41E8
+}
+
+.form button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.form select{
+    font-size: 15px;
+    border-radius: 8px;
+    margin-top: 5px;
+    height: 40px;
+    width: 525px;
+}

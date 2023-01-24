@@ -1,0 +1,78 @@
+{
+  "inmuebles": [
+    {
+      "id": 2,
+      "imagen": "../img/casa2.png",
+      "name": "272 S Rexford Dr, Beverly Hills, CA90212, USA",
+      "ubicacion": "california",
+      "metros": "2400",
+      "precio": "120,000.00",
+      "tipo": "house",
+      "propietario": "Mark Ruffalo",
+      "descripcion": "two pool",
+      "status": "California"
+    },
+    {
+      "id": 3,
+      "imagen": "../img/casa3.png",
+      "name": "272 S Rexford Dr, Beverly Hills, CA90212, USA",
+      "ubicacion": "Steve Rogers",
+      "metros": "2400",
+      "precio": "420,000.00",
+      "tipo": "apartament",
+      "propietario": "Hellen Mattis",
+      "descripcion": "One bathroom",
+      "status": "Florida"
+    },
+    {
+      "id": 4,
+      "imagen": "../img/casa4.png",
+      "name": "272 S Rexford Dr, Beverly Hills, CA90212, USA",
+      "ubicacion": "florida",
+      "metros": "2400",
+      "precio": "520,000.00",
+      "tipo": "house",
+      "propietario": "Brad Pitt",
+      "descripcion": "ddd",
+      "status": "Florida"
+    },
+    {
+      "id": 5,
+      "imagen": "../img/casa5.png",
+      "name": "272 S Rexford Dr, Beverly Hills, CA90212, USA",
+      "ubicacion": "newjersey",
+      "metros": "2400",
+      "precio": "330,000.00",
+      "tipo": "apartament",
+      "propietario": "Angelina Jolie",
+      "descripcion": "ddd",
+      "status": "New Jersey"
+    },
+    {
+      "id": 6,
+      "imagen": "../img/casa6.png",
+      "name": "272 S Rexford Dr, Beverly Hills, CA90212, USA",
+      "ubicacion": "california",
+      "metros": "2400",
+      "precio": "1.320,000.00",
+      "tipo": "apartament",
+      "propietario": "Mack Murdock",
+      "descripcion": "ddd",
+      "status": "California"
+    }
+  ],
+  "favoritos": [
+    {
+      "id": 2,
+      "imagen": "../img/casa2.png",
+      "name": "272 S Rexford Dr, Beverly Hills, CA90212, USA",
+      "ubicacion": "california",
+      "metros": "2400",
+      "precio": "120,000.00",
+      "tipo": "house",
+      "propietario": "Mark Ruffalo",
+      "descripcion": "two pool",
+      "status": "California"
+    }
+  ]
+}
